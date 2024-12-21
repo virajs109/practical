@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/etage"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fourthActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="viraj"
+        android:id="@+id/v1"
+        android:textSize="30dp"
+        android:background="@color/red"
+        android:layout_centerHorizontal="true"
+        android:layout_centerInParent="true"></TextView>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="above"
+            android:layout_marginBottom="20dp"
+            android:layout_above="@id/v1"
+            android:layout_centerHorizontal="true"></Button>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Below"
+        android:layout_marginTop="20dp"
+        android:layout_below="@id/v1"
+        android:layout_centerHorizontal="true"></Button>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="left"
+        android:layout_marginRight="20dp"
+        android:layout_toLeftOf="@id/v1"
+        android:layout_centerVertical="true"></Button>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="right"
+        android:layout_marginLeft="20dp"
+        android:layout_toRightOf="@id/v1"
+        android:layout_centerVertical="true"></Button>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="top text"
+        android:textSize="40dp"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true">
+
+    </TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="below text"
+        android:textSize="40dp"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true">
+
+    </TextView>
+
+
+
+
+
+</RelativeLayout>
